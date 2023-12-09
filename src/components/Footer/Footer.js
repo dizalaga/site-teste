@@ -9,10 +9,10 @@ import AreaRiscos from "../AreaRiscos/areaRiscos";
 
 function Footer() {
   return (
-    <div>
+    <div className="container-footer">
     <footer>
       <div id="footer_contacts">
-        <h3>Contatos</h3>
+        <h3 className="titleContatos">Contatos</h3>
         <div id="footer_social_media">
           <Link
             to="https://www.instagram.com/dizalaga/"
@@ -36,7 +36,7 @@ function Footer() {
 
       <ul className="footer-list">
         <li>
-          <h3>Mapa do site</h3>
+          <h3 className="titleMapaSite">Mapa do site</h3>
         </li>
         <li>
           <a href="/" className="footer-link">
@@ -85,7 +85,7 @@ function Footer() {
 
       <ul className="footer-list">
         <li>
-          <h3>Sobre nós</h3>
+          <h3 className="titleSobreNos">Sobre nós</h3>
         </li>
         <li>
           <a href="/quemsomos" className="footer-link">
