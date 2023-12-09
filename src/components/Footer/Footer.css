@@ -8,7 +8,7 @@
 
 }
 
-* {
+.container-footer{
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
@@ -22,8 +22,8 @@ main {
 
 footer {
     width: 100%;
-    color: var(--color-neutral-40);
-    background-color: rgb(1, 184, 126);
+    color: black;
+    background-color: #C3FFDB;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 1rem 3.5rem;
@@ -96,13 +96,17 @@ h3 {
     list-style: none;
 }
 
+.titleContatos, .titleMapaSite, .titleSobreNos{
+    color: #202020;
+}
+
 .footer-list .footer-link {
-    color: rgb(212, 212, 212);
+    color: rgb(81, 81, 81);
     transition: all 0.3s;
 }
 
 .footer-list .footer-link:hover {
-    color: #ffffff;
+    color: #141414;
 }
 
 #footer_copyright{
