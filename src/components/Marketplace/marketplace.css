@@ -1,0 +1,19 @@
+
+.container-marketplace {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #1BC67E;
+}
+
+.product-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 0 1% 0;
+}
+
+.titleMarketplace{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
