@@ -20,6 +20,7 @@ import PostList from "./components/FormPost/PostList";
 import Footer from "./components/Footer/Footer";
 import AreaRiscos from "./components/AreaRiscos/areaRiscos";
 import Usuario from "./components/Usuario/usuario";
+import Marketplace from "./components/Marketplace/marketplace";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -38,6 +39,7 @@ function App() {
         <Route path="/pontos-de-doacao" element={<PontosDoacao />} />
         <Route path="/quemsomos" element={<QuemSomos />} />
         <Route path="/usuario" element={<Usuario />} />
+        <Route path="/marketplace" element={<Marketplace/>}/>
       </Routes>
     </Router>
   );
