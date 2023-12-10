@@ -62,6 +62,7 @@ function Marketplace() {
               Sofá usado e com algumas marcas do tempo, porém ainda grande e
               espaçoso
             </p>
+            <p className="wordInvisible">a</p>
             <p className="location">Recife-PE</p>
             <p className="price">R$400.00</p>
             <div className="button-container">
@@ -84,7 +85,7 @@ function Marketplace() {
               Assine já um plano de seguro para previnir perca de bens em
               acidentes.
             </p>
-            <p className="invisivel">lalal</p>
+            
             <p className="location">Recife-PE</p>
             <p className="price">R$200.00</p>
             <div className="button-container">
