@@ -177,10 +177,6 @@ margin-top: 0.1rem;
   margin-top: 1rem;
 }
 
-.invisivel{
-  color: #ffffff;
-}
-
 .paginas{
   display: flex;
   margin-bottom: 1.5rem;
@@ -196,4 +192,8 @@ margin-top: 0.1rem;
   margin-right: 0.7rem;
   color: #002a7d;
   
+}
+
+.wordInvisible{
+  color: #fff;
 }
