@@ -20,7 +20,7 @@ function Marketplace() {
       <div className="container-marketplace">
         <h2 className="nameTitle">Marketplace</h2>
         <div className="product-section">
-          <div className="card">
+          <div className="card-product">
             <img src={camaUsada} alt="Cama Usada" className="imageProduct" />
             <h3 className="nameTitleCama">Cama Usada</h3>
             <p className="descriptionCama">
@@ -36,7 +36,7 @@ function Marketplace() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="card-product">
             <img
               src={Armario}
               alt="Armario Semiusado"
@@ -56,7 +56,7 @@ function Marketplace() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="card-product">
             <img
               src={seguroPorto}
               alt="Seguro Residencial - Porto Seguro"
@@ -79,7 +79,7 @@ function Marketplace() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="card-product">
             <img
               src={seguroLiberty}
               alt="Seguro Residencial - Liberty Seguros"
@@ -101,7 +101,7 @@ function Marketplace() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="card-product">
             <img
               src={seguroAllianz}
               alt="Seguro Residencial - Allianz"
@@ -121,7 +121,7 @@ function Marketplace() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="card-product">
             <img src={sofáUsado} alt="Sofá Usado" className="imageProduct" />
             <h3 className="nameTitleSofa">Sofá Usado</h3>
             <p className="descriptionSofa">
@@ -139,9 +139,8 @@ function Marketplace() {
         </div>
         <Link to="/marketplace" className="paginas">
           <p className="tracinho">{"<"}</p>
-          <p className="um">1 </p> 
+          <p className="um">1 </p>
           <p className="tracinho">{">"} </p>
-          
         </Link>
       </div>
       <span className="footer">
