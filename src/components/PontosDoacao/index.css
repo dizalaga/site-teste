@@ -57,9 +57,37 @@
 
 .title-card{
   font-size: 20px;
+  margin-top: 0.4rem;
 }
 
-.lugarPontos {
-  font-size: 0.9rem;
+
+
+.lugarDonaLindu{
+font-size: 0.9rem;
+  margin-top: 0.9rem;
 }
 
+.lugarGris{
+font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+.lugarUfpe{
+font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.lugarCufa{
+font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.lugarPrefeitura{
+font-size: 0.9rem;
+  margin-top: 0.8rem;
+}
+
+.lugarOab{
+font-size: 0.9rem;
+  margin-top: 0.8rem;
+}
