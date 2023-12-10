@@ -182,10 +182,10 @@ button {
   border: 1px solid #188a45;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .container {
     flex-direction: column;
-    width: 90%;
+    width: 100%;
   }
 
   .profile-left,
@@ -201,4 +201,4 @@ button {
     width: 100%;
     margin-right: 0;
   }
-}
+} */
