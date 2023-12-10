@@ -52,7 +52,7 @@ function CadastroForm() {
 
            
           </form>
-          <Link to="/" >
+          <Link to="/usuario" >
               <button typeof="submit" className="cadastro">Cadastrar</button>
             </Link> 
             
