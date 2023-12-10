@@ -55,6 +55,21 @@ function Marketplace() {
               </Link>
             </div>
           </div>
+          <div className="card-product">
+            <img src={sofáUsado} alt="Sofá Usado" className="imageProduct" />
+            <h3 className="nameTitleSofa">Sofá Usado</h3>
+            <p className="descriptionSofa">
+              Sofá usado e com algumas marcas do tempo, porém ainda grande e
+              espaçoso
+            </p>
+            <p className="location">Recife-PE</p>
+            <p className="price">R$400.00</p>
+            <div className="button-container">
+              <Link to="https://wa.me/818633710">
+                <button className="contato">Entra em contato</button>
+              </Link>
+            </div>
+          </div>
 
           <div className="card-product">
             <img
@@ -117,22 +132,6 @@ function Marketplace() {
             <div className="button-container">
               <Link to="#">
                 <button className="saibaMais">Saiba Mais</button>
-              </Link>
-            </div>
-          </div>
-
-          <div className="card-product">
-            <img src={sofáUsado} alt="Sofá Usado" className="imageProduct" />
-            <h3 className="nameTitleSofa">Sofá Usado</h3>
-            <p className="descriptionSofa">
-              Sofá usado e com algumas marcas do tempo, porém ainda grande e
-              espaçoso
-            </p>
-            <p className="location">Recife-PE</p>
-            <p className="price">R$400.00</p>
-            <div className="button-container">
-              <Link to="https://wa.me/818633710">
-                <button className="contato">Entra em contato</button>
               </Link>
             </div>
           </div>
