@@ -49,7 +49,7 @@
 .profile-right {
   width: 36rem;
   height: 35rem;
-  background-color: #1d50a9;
+  background-color: #2298CF;
   padding: 0;
   border-radius: 15px;
 }
@@ -59,7 +59,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #4285f4;
+  background-color: #1D5AAF;
   width: 30%;
   height: 70%;
   border-radius: 15px;
@@ -109,7 +109,7 @@ button {
 .tituloEditarPerfil {
   text-align: left;
   color: white;
-  background-color: #4285f4;
+  background-color: #1D5AAF;
   padding: 5%;
   border-radius: 15px 15px 0px 0px;
 }
