@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "../navbar/index.js";
+import Navbar from "../navbar/index";
 import "./index.css";
-import Footer from "../Footer/Footer.js";
+import Footer from "../Footer/Footer";
 import imagemazul from "./imagens-pontodoacao/imagem-azul.jpg";
 import "./index.css";
 
@@ -68,7 +68,8 @@ function PontosDoacao() {
 
           <div className="card-content">
             <p className="title-card">Dona Lindu</p>
-            <p className="lugarPontos">Recife-PE</p>
+            <br></br>
+            <p className="lugarDonaLindu">Recife-PE</p>
             <button onClick={donaLindu} class="button">
               ver no mapa
             </button>
@@ -80,7 +81,7 @@ function PontosDoacao() {
 
           <div className="card-content">
             <p className="title-card">Gris Espaço Solidário</p>
-            <p className="lugarPontos">Recife-PE</p>
+            <p className="lugarGris">Recife-PE</p>
             <button onClick={gris} class="button">
               ver no mapa
             </button>
@@ -92,7 +93,7 @@ function PontosDoacao() {
 
           <div className="card-content">
             <p className="title-card">Universidade Federal de Pernambuco</p>
-            <p className="lugarPontos">Recife-PE</p>
+            <p className="lugarUfpe">Recife-PE</p>
             <button onClick={ufpe} class="button">
               ver no mapa
             </button>
@@ -104,7 +105,7 @@ function PontosDoacao() {
 
           <div className="card-content">
             <p className="title-card">Central Única das Favellas PE</p>
-            <p className="lugarPontos">Recife-PE</p>
+            <p className="lugarCufa">Recife-PE</p>
             <button onClick={cufa} class="button">
               ver no mapa
             </button>
@@ -116,7 +117,8 @@ function PontosDoacao() {
 
           <div className="card-content">
             <p className="title-card">Prefeitura do Recife</p>
-            <p className="lugarPontos">Recife-PE</p>
+            <br></br>
+            <p className="lugarPrefeitura">Recife-PE</p>
             <button onClick={prefeitura} class="button">
               ver no mapa
             </button>
@@ -128,7 +130,8 @@ function PontosDoacao() {
 
           <div className="card-content">
             <p className="title-card">OAB de Pernambuco</p>
-            <p className="lugarPontos">Recife-PE</p>
+            <br></br>
+            <p className="lugarOab">Recife-PE</p>
             <button onClick={oab} class="button">
               ver no mapa
             </button>
