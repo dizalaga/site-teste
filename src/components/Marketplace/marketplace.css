@@ -20,7 +20,7 @@
   margin-bottom: 2rem;
 }
 
-.card {
+.card-product {
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
