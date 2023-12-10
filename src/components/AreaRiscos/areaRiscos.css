@@ -1,0 +1,110 @@
+.areasRisco{
+  background-color: #1BC67E;
+}
+
+.tituloAreaRisco{
+  color: rgb(255, 255, 255);
+}
+
+.tituloAbrigos{
+  color: black;
+}
+
+.textoAreasRisco p{
+  color: aliceblue;
+}
+.procurarAbrigo{
+  background-color: #009E40;
+  border: 0.5px solid grey;
+  border-radius: 5px;
+  width: 7rem;
+  height: 1.5rem;
+  color: aliceblue;
+  font-size: 1rem;
+}
+
+.previna{
+  background-color: #1D50A9;
+  
+}
+
+.textoPrevina{
+  margin-top: 2rem;
+  color: aliceblue;
+  text-align: center;
+  margin-bottom: 4rem;
+  width: 70%;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;  /* Adicione esta linha */
+  margin-right: auto;
+}
+
+.imagensPrevencao {
+   border-radius: 3%;
+  height: 300px;
+  margin-right: 1rem;
+}
+
+.descarteLixo,
+.manutencao,
+.arvoresVegetacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagemTextoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 30px;
+}
+
+.descarteLixo img,
+.manutencao img,
+.arvoresVegetacao img {
+  margin-bottom: 1rem;
+  height: 250px;
+  margin: 30px 60px;
+}
+
+.textoContainer {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  width: 30%;
+  font-size: 20px;
+  margin: 40px 30px;
+}
+
+.textoContainer p{
+  width: 100%;
+}
+.tituloDescarteLixo,
+.tituloManutencao,
+.tituloArvoresVegetacao {
+  color: white;
+  margin-bottom: 0.4rem;
+  font-size: 180%;
+}
+
+.sobreAreasRisco{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mapaAreasRisco{
+  margin: 40px;
+}
+.textoAreasRisco{
+  width: 40%;
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
